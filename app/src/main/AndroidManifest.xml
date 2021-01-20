@@ -40,7 +40,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+		android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/SplashTheme"
 		android:hardwareAccelerated="true"
@@ -64,7 +64,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="https"
-                    android:host="github.com"
+                    android:host="standardtouch.com"
                     android:pathPrefix="/mgks" />
 					<!-- if you want only a specific directory from your website to be opened in the app through external links -->
 			</intent-filter>

@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1004337301382:android:619ce09a414ebc69",
         "android_client_info": {
-          "package_name": "mgks.os.webview"
+          "package_name": "stouch.os.samplestandardtouchapp"
         }
       },
       "oauth_client": [

@@ -120,7 +120,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 	static boolean ASWP_CERT_VERIFICATION 	= SmartWebView.ASWP_CERT_VERI;
 
 	//Configuration variables
-	private static String ASWV_URL     		= SmartWebView.ASWV_URL;
+	//PUT URL HERE
+	private static String ASWV_URL     		= "https://standardtouch.com//";
 	private String CURR_URL					= ASWV_URL;
 	private static String ASWV_SEARCH		= SmartWebView.ASWV_SEARCH;
 	private static String ASWV_SHARE_URL	= SmartWebView.ASWV_SHARE_URL;
@@ -221,6 +222,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
+	Handler mHandler;
     @SuppressLint({"SetJavaScriptEnabled", "WrongViewCast", "JavascriptInterface"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {

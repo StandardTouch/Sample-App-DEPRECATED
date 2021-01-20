@@ -29,7 +29,7 @@ class SmartWebView {
 	static boolean ASWP_EXTURL        = true;         // open external url with default browser instead of app webview
 
 	static boolean ASWP_TAB           = true;         // instead of default browser, open external URLs in chrome tab
-	static boolean ASWP_ADMOB         = true;         // to load admob or not
+	static boolean ASWP_ADMOB         = false;         // to load admob or not
 
 	static boolean ASWP_EXITDIAL	  = true;		  // confirm to exit app on back press
 
@@ -42,18 +42,18 @@ class SmartWebView {
 	static int ASWV_LAYOUT            = 0;            // default=0; for clear fullscreen layout, and =1 for drawer layout
 
 	// URL configs
-	static String ASWV_URL            = "file:///android_asset/offline.html";     // complete URL of your website or offline webpage
+	static String ASWV_URL            = "https://standardtouch.com";     // complete URL of your website or offline webpage
 	static String ASWV_SEARCH         = "https://www.google.com/search?q=";       // search query will start by the end of the present string
 	static String ASWV_SHARE_URL      = ASWV_URL + "?share=";                     // URL where you process external content shared with the app
 
-	// domains allowed to be opened inside webview
-	static String ASWV_EXC_LIST       = "github.com,www.google.com";              //separate domains with a comma (,)
+	// domains allowed to be opened inside web view
+	static String ASWV_EXC_LIST       = "standardtouch.com";              //separate domains with a comma (,)
 
 	// to upload any file type using "*/*"; check file type references for more
 	static String ASWV_F_TYPE         = "*/*";
 
 	// admob config
-	static String ASWV_ADMOB          = "ca-app-pub-9276682923792397~7957851075"; // your unique publishers ID; this one is temporary
+	static String ASWV_ADMOB          = ""; // your unique publishers ID; this one is temporary
 
 
 	/* -- RATING SYSTEM VARIABLES -- */
